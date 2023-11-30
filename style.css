@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    color: antiquewhite;
+    background-color: rgb(0, 0, 0);
+}
+/* ---------------------------------{NAVBAR}---------------------------------------------- */
+.navbar{
+    margin-top: 5rem;
+    margin-left: 22rem;
+    width: 75rem;
+    display: flex;
+    justify-content: space-between;
+}
+.nav_heading{
+    font-size:25px;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+}
+ul{
+    display: flex;
+    gap:3rem;
+    list-style: none;
+    font-family:  sans-serif;
+}
+.hire_me_btn{
+    margin-top: -10px;
+    padding: 8px;
+    background:rgb(175, 31, 31);
+    color: antiquewhite;
+    outline: none;
+}
+/* ---------------------------------{HERO SECTION}---------------------------------------------- */
+.hero_section{
+    display:flex;
+    gap: 2rem;
+    margin-top: 4rem;
+    margin-left: 17rem;
+}
+.hero_social_media_icons{
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.hero_heading{
+    font-size: 6rem;
+    font-family: 'Poppins', sans-serif;
+}
+/* ---------------------------------{SIMPLE TEXT PARA AND LINE}---------------------------------------------- */
+.simple_para p{
+    font-size: 20px;
+    font-family:sans-serif;
+    margin-top: 1rem;
+    margin-left: 20rem;
+}
+.simple_para span{
+    text-decoration: underline;
+    color: red;
+}
+.simple_red_line {
+    font-weight:bolder;
+}
+/* ---------------------------------{FOOTER}---------------------------------------------- */
+.footer{
+    margin-left: 17rem;
+}
+.footer_text_relative{
+    font-size: 10rem;
+    font-family: 'Poppins', sans-serif;
+    opacity: 0.2;
+    /* position: absolute; */
+}
+.footer_para_absolute{
+    color: white;
+    margin-top:6rem;
+    margin-left: 10rem;
+    position:absolute;
+    font-size: 26px;
+    font-family: 'Poppins', sans-serif;
+}
